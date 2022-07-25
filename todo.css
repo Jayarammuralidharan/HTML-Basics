@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-1{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+.container-2{
+    width: 35%;
+    height: 1000%;
+    padding-top:20px ;
+    
+}
+#task{
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+#list{
+    font-size: 2.5rem;
+    margin-left:10px;
+    opacity: 0.5;
+
+}
+.container-3{
+    width: 30%;
+    height: 100%;
+    padding-top:20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#addlist{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top:20px ;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:5%;
+}
+.card1{
+    margin-top: 10px;
+    border: 1.5px solid orange;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    margin: auto;
+}
+.div1{
+position: absolute;
+top: 60px;
+right: 0;
+font-size: 25px;
+width: 85%;
+text-align: left;
+height: 15%;
+color: red;
+border-bottom: 1px solid black;
+}
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 22px;
+    color: red;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight:bold;
+    text-decoration: line-through;
+
+}
+.div3{
+    width: 90%;
+    height: 10%;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    position: absolute;
+    top: 52%;
+}
+
+#check{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
